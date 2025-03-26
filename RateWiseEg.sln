@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateWiseEg", "RateWiseEg\RateWiseEg.csproj", "{84ECA2FF-D92D-4C8E-96BB-18DFEB71BB7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84ECA2FF-D92D-4C8E-96BB-18DFEB71BB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84ECA2FF-D92D-4C8E-96BB-18DFEB71BB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84ECA2FF-D92D-4C8E-96BB-18DFEB71BB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84ECA2FF-D92D-4C8E-96BB-18DFEB71BB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C4531AC-6BC1-4D2E-861B-2C4443FD0CC3}
+	EndGlobalSection
+EndGlobal
