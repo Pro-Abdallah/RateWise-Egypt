@@ -13,12 +13,47 @@ namespace RateWiseEg.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Privacy()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Landing()
+        {
+            return View();
+        }
+
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+
+        public IActionResult Services()
+        {
+            return View();
+        }
+
+        public IActionResult News()
+        {
+            return View();
+        }
+
+        public IActionResult MoneyRates()
+        {
+            return View();
+        }
+
+        public IActionResult TermsOfServices()
+        {
+            return View();
+        }
+
+        public IActionResult Legal()
+        {
+            return View();
+        }
+
+        public IActionResult PrivacyPolicy()
         {
             return View();
         }
