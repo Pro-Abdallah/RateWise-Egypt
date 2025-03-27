@@ -4,6 +4,8 @@ namespace RateWiseEg
     {
         public static void Main(string[] args)
         {
+            // Program.cs
+
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -28,7 +30,7 @@ namespace RateWiseEg
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Account}/{action=Signup}/{id?}"); // Default route to Account/Signup
 
             app.Run();
         }
