@@ -1,5 +1,38 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Enter Confirmation Code";
+    Layout = "_Layout";
 }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Enter Confirmation Code</h1>
+            <p class="subtitle">Enter the 6-digit code we sent to Fa****6@gmail.com</p>
+
+            <div class="code-inputs">
+                <input type="text" maxlength="1" class="code-input">
+                <input type="text" maxlength="1" class="code-input">
+                <input type="text" maxlength="1" class="code-input">
+                <input type="text" maxlength="1" class="code-input">
+                <input type="text" maxlength="1" class="code-input">
+                <input type="text" maxlength="1" class="code-input">
+            </div>
+
+            <p class="help-text">If you didn't receive an email</p>
+            <a href="#" class="resend-link">Resend email</a>
+        </div>
+
+        <div class="image-container">
+            <img src="codeee.png" alt="Computer illustration" class="computer-image">
+        </div>
+    </div>
+</body>
+</html>
